@@ -1,5 +1,5 @@
 package Win32::Die;
-$VERSION='0.02';
+$VERSION='0.03';
 
 use Term::ReadKey;
 
