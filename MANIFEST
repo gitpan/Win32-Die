@@ -1,6 +1,7 @@
 Changes
-Die.pm
 Makefile.PL
 MANIFEST
 README
-test.pl
+t/Win32-Die.t
+lib/Win32/Die.pm
+META.yml                                 Module meta-data (added by MakeMaker)

@@ -1,17 +1,14 @@
-Win32/Die version 0.01
+Win32/Die version 0.02
 ======================
 
-Windows automatically ("helpfully") closes DOS windows when they quit. 
-This can be annoying when your Perl program dies, since you don't get a 
-chance to read the error message. Win32::Die detects if your program was 
-double-clicked, or run from a command line, and alters %SIG{__DIE__} 
-appropriately. The DOS window remains put until you close the window or 
+Windows automatically ("helpfully") closes DOS windows when they quit. This can be annoying when your Perl program dies, 
+since you don't get a chance to read the error message. Win32::Die detects if your program was double-clicked, or run 
+from a command line, and alters %SIG{__DIE__} appropriately. The DOS window remains put until you close the window or 
 hit a key.  
 
 INSTALLATION
 
-It's all pure Perl, so just put the .pm file in its appropriate local 
-Perl subdirectory. 
+It's all pure Perl, so just put the .pm file in its appropriate local Perl subdirectory. 
 
 DEPENDENCIES
 
@@ -21,7 +18,6 @@ This module requires these other modules and libraries:
 
 COPYRIGHT AND LICENCE
 
-Copyright (c) 2003 Alex Vandiver
+Copyright (c) 2003, 2004 Alex Vandiver and Mike Accardo
 
-This library is free software; you can redistribute it and/or modify 
-it under the same terms as Perl itself. 
+This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself.  
